@@ -69,5 +69,9 @@ This was a game made by me for learning Unity.
 4) When player is attacked by bear, bear performing multi hits.  
     The bear on attacking the player would damage the player multiple times as the collission(trigger) between the player and bear would occur multiple times within a very small time. This was fixed by adding a delay to the bear's attack, i.e. on being attacked by the bear, for a few frames, the player becomes invulnerable.  
   
-5) High temps and requirements for game: This is still a decent issue, but currently, I have added a V-Sync option and Implemented occlusion culling to reduce requirements for game to run.  
+5) High temps and requirements for game: This is still a decent issue, but currently, I have added a V-Sync option and Implemented occlusion culling to reduce requirements for game to run.
 
+# Other readme files:
+
+Bugs.md consists of active bugs that I have noticed in current release of game.  
+Tutorial.md consists of the current features and quests in the game.
