@@ -5,3 +5,4 @@
 3) Player can move even during the opening Timeline (Easy fix)
 4) Sword deals damage even when it is not swinging
 5) Can get stuck in some places on map (Mainly near mountains). (Easy fix)
+6) Not really a bug, but, The prompt talking about interacting with objects/NPC's should be explained or shown more properly (easy fix)
