@@ -2,7 +2,7 @@
 This was a game made by me for learning Unity. 
 
 ## Game Link:-  
-[OneDrive Link]([https://1drv.ms/u/c/ecc5fd92abdde1ac/EQSLpb8-YV9PozlOM4Vf5tcBrQ9jHPq1CFL-X26R_KqBOg](https://1drv.ms/f/c/ecc5fd92abdde1ac/EpjVUTbhgrpDqMSa9x4ibZgBfk-p_lRpidpM8kSTCaIDgg?e=IuCKKg))
+[OneDrive Link]([https://1drv.ms/u/c/ecc5fd92abdde1ac/EQSLpb8-YV9PozlOM4Vf5tcBrQ9jHPq1CFL-X26R_KqBOg])
 
 ## IDEA OF GAME:-
 * The player is a time traveler exploring zones representing different eras of humanity.  
