@@ -51,7 +51,6 @@ public class movement : MonoBehaviour
         speed = walk;
         Dashspeed = speed * 3;
         slopeExceed = false;
-        ShouldMove = true;
     }
 
     // Update is called once per frame

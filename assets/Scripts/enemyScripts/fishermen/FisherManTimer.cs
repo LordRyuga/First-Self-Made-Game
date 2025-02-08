@@ -21,5 +21,10 @@ public class FisherManTimer : MonoBehaviour
 
         fisherman.SetFloat("timer", timer);
         fisherman2.SetFloat("timer", timer);
+
+
+        //  Timer is a float present on the animator on the fisherman, and we are checking if it is less than or greater than 5 in order to
+        // transistion from the fishing-idle to the fishing star animations.
+
     }
 }
