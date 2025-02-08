@@ -317,7 +317,6 @@ public class gameManager : MonoBehaviour
         newLoad.enabled = false;
         Cursor.lockState = CursorLockMode.Locked;
         openingScene.Play();
-        movementScript.ShouldMove = true;
         isDead = false;
     }
 

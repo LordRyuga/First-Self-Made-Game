@@ -13,6 +13,12 @@ public class openingTextAnimation : MonoBehaviour
     [SerializeField] Animator animation3;
 
 
+    // This was supposed to be the original method to implement the first cutscene but doing so for every cutscene would be tedious
+    // So I searched for better methods and found out about timeline.
+    // This method is no longer being used
+
+    // I would call the animation through an animator with parameters as startAnimx and using these methods.
+
     //public void SetAnim2()
     //{ 
     //    StartAnim2 = true;

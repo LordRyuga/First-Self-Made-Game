@@ -26,13 +26,13 @@ public class BearManager : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))     //Check if we hit player
         {
-            gameManager player = other.GetComponent<gameManager>();
-            movement playerMovement = other.GetComponent<movement>();
+            gameManager player = other.GetComponent<gameManager>();     //gather player script containing health and other player attributes
+            movement playerMovement = other.GetComponent<movement>();   //gather player's movement script to add knockback
 
             Vector3 Direction = transform.forward.normalized;
-            Direction.y = 1f;
+            Direction.y = 1f;                                       //add a small vertical knockback for every bear hit
 
             playerMovement.Controller.Move(Direction * knockback * Time.deltaTime);
 
@@ -61,6 +61,9 @@ public class BearManager : MonoBehaviour
             hit = false;
         }
 
+        //crude and direct logic to apply a 1 second of delay between player taking damage
+        // this was done so that multiple triggers within the same physics interaction would not make the player take a lot of damage
+
         if(timer > 0f && fed)
         {
             timer -= Time.deltaTime;
@@ -72,7 +75,6 @@ public class BearManager : MonoBehaviour
             //Debug.Log(bear.GetBool("Sleep"));
          }
 
-        bear.SetBool("Sleep", fed);
-        
+        bear.SetBool("Sleep", fed);         //logic to set parameter of bear animator to make it sleep after eating
     }
 }

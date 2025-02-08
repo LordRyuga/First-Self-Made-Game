@@ -2547,6 +2547,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &127890099
 MonoBehaviour:
@@ -4323,6 +4324,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &249744153
 MonoBehaviour:
@@ -7840,6 +7842,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &499941972
 MonoBehaviour:
@@ -8706,6 +8709,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &528122779
 MonoBehaviour:
@@ -9833,6 +9837,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &616382603
 MonoBehaviour:
@@ -11362,6 +11367,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &760863294
 MonoBehaviour:
@@ -13263,6 +13269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952079985}
   - component: {fileID: 952079984}
+  - component: {fileID: 952079986}
   m_Layer: 0
   m_Name: OpeningTimeline
   m_TagString: Untagged
@@ -13311,6 +13318,20 @@ Transform:
   - {fileID: 838783011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &952079986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952079983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fbe9c5ae9fc7e4baf31869db660624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openingTimeline: {fileID: 952079984}
+  playerMovement: {fileID: 2123563119}
 --- !u!1001 &953932222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15756,6 +15777,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &1130136125
 MonoBehaviour:
@@ -15825,7 +15847,7 @@ Transform:
   m_GameObject: {fileID: 1137463452}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 46.78, z: -4242}
+  m_LocalPosition: {x: 99.31784, y: 46.76, z: -4240.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17872,6 +17894,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &1287637440
 MonoBehaviour:
@@ -28092,6 +28115,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &1615837356
 MonoBehaviour:
@@ -32869,6 +32893,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &1926373786
 MonoBehaviour:
@@ -33294,6 +33319,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 50
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &1954659687
 MonoBehaviour:
@@ -35394,7 +35420,7 @@ Transform:
   m_GameObject: {fileID: 2078279597}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 46.78, z: -4242}
+  m_LocalPosition: {x: 99.31784, y: 46.76, z: -4240.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35802,6 +35828,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &2087298221
 MonoBehaviour:
@@ -36170,15 +36197,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6100801155731618980, guid: 5dd9b0bb8c6327343b77c4bb2459847c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 100
+      value: 99.31784
       objectReference: {fileID: 0}
     - target: {fileID: 6100801155731618980, guid: 5dd9b0bb8c6327343b77c4bb2459847c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 46
+      value: 45.98
       objectReference: {fileID: 0}
     - target: {fileID: 6100801155731618980, guid: 5dd9b0bb8c6327343b77c4bb2459847c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4242
+      value: -4240.38
       objectReference: {fileID: 0}
     - target: {fileID: 6100801155731618980, guid: 5dd9b0bb8c6327343b77c4bb2459847c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36370,6 +36397,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614ac8683e7af534abd13e0f1264fb00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2123563119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8664079619532944637, guid: 5dd9b0bb8c6327343b77c4bb2459847c, type: 3}
+  m_PrefabInstance: {fileID: 2123563107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123563108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73fa41b6d935a448962afb3cfddd5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2131576474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2836004475591197053, guid: f432554f564e69242897607d34218939, type: 3}
@@ -36447,6 +36485,7 @@ MonoBehaviour:
   Player: {fileID: 1516667055}
   followRange: 75
   rewardOnKill: 75
+  shootingDistance: 0
   health: 100
 --- !u!114 &2132459915
 MonoBehaviour:
