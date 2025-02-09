@@ -1,6 +1,9 @@
 # Controls missed in game
   * You can talk with NPC's when you go close to them and press 'F'
   * While talking to NPC's, use arrow keys to select between the dialogue options and press 'Y' to confirm option.
+## General tips
+ * When the enemy's health goes below a certain point, they start to run away from you and stop shooting.
+
 
 ## Region 1: Medivial
 * One hidden coin at the center of lake underwater
