@@ -53,7 +53,12 @@ This was a game made by me for learning Unity.
 * Learnt about timelines in unity, added timeline animations for crossing transistions and Opening cutscene.   
 * Added hidden coin.
 * Added Magic and efffects for it.  
-  
+
+
+
+## --VERSION 1.2 CHANGELOG--
+* Made the player unable to move during the opening cutscene
+* Made the enemies more 'smart' by adding another state (read tutorial)
   
 ## MAJOR ISSUES WHILE MAKING AND HOW THEY WERE TACKLED:  
   
